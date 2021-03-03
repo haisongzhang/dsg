@@ -6,7 +6,7 @@
 
 You can also download our public datasets: [https://ai.tencent.com/ailab/nlp/en/embedding.html](https://ai.tencent.com/ailab/nlp/en/embedding.html)
 
-## how to use 
+## How to use 
 To build the code, simply run:
 
 ``` python
