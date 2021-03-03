@@ -2,13 +2,12 @@
 
 [Directional Skip-Gram: Explicitly Distinguishing Left and Right Context for Word Embeddings](http://aclweb.org/anthology/N18-2028)
 
-To build the code, simply run:
+To build the code, simply run::
 
-make
+  make
 
-The command to build word embeddings is exactly the same as in the original version, except that we removed the argument -cbow and replaced it with the argument -type:
-
-./dsg -train input_file -output embedding_file -type 0 -size 50 -window 5 -negative 10 -hs 0 -sample 1e-4 -threads 1 -binary 1 -iter 5
+The command to build word embeddings is exactly the same as in the original version, except that we removed the argument -cbow and replaced it with the argument -type::
+  ./dsg -train input_file -output embedding_file -type 0 -size 50 -window 5 -negative 10 -hs 0 -sample 1e-4 -threads 1 -binary 1 -iter 5
 
 The -type argument is a integer that defines the architecture to use. These are the possible parameters:  
 0 - dsg: the model proposed in this paper;
