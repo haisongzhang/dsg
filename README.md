@@ -1,4 +1,4 @@
-# DSG
+## DSG
 Directional Skip-Gram: Explicitly Distinguishing Left and Right Context for Word Embeddings
 
 To build the code, simply run:
@@ -14,15 +14,19 @@ The -type argument is a integer that defines the architecture to use. These are 
 1 - simple ssg: the comparative model adopted from the original structured SG model (https://github.com/wlin12/wang2vec).
 
 
+## Citation
+
 If you use functionalities in this code, please support us by citing our paper:
 
+```bibtex
 @InProceedings{Song:2018:naacl,
-author    = {Yan Song and Shuming Shi and Jing Li and Haisong Zhang},
-title     = "{Directional Skip-Gram: Explicitly Distinguishing Left and Right Context for Word Embeddings}",
-booktitle = {Proceedings of the 2018 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies},
-year      = {2018},
-publisher = {Association for Computational Linguistics},
-address   = {New Orleans, Louisiana, USA}
+	author    = {Yan Song and Shuming Shi and Jing Li and Haisong Zhang},
+	title     = "{Directional Skip-Gram: Explicitly Distinguishing Left and Right Context for Word Embeddings}",
+	booktitle = {Proceedings of the 2018 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies},
+	year      = {2018},
+	publisher = {Association for Computational Linguistics},
+	address   = {New Orleans, Louisiana, USA}
 }
+```
 
 Many thanks!
