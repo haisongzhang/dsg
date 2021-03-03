@@ -1,5 +1,6 @@
 ## DSG
-Directional Skip-Gram: Explicitly Distinguishing Left and Right Context for Word Embeddings
+
+[Directional Skip-Gram: Explicitly Distinguishing Left and Right Context for Word Embeddings](http://aclweb.org/anthology/N18-2028)
 
 To build the code, simply run:
 
