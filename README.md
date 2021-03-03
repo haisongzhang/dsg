@@ -2,6 +2,11 @@
 
 [Directional Skip-Gram: Explicitly Distinguishing Left and Right Context for Word Embeddings](http://aclweb.org/anthology/N18-2028)
 
+## Datasets
+
+You can also download our public datasets: [https://ai.tencent.com/ailab/nlp/en/embedding.html](https://ai.tencent.com/ailab/nlp/en/embedding.html)
+
+## how to use 
 To build the code, simply run:
 
 ``` python
